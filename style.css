@@ -1,511 +1,78 @@
 
-/* Regular Selectors*/
 
-p {
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: left;
-    line-height: 1.6;
+.mainHeader {
+    height: 100vh;
+    min-height: 40em;
+    background-image: url("https://live.staticflickr.com/7374/13039037424_ff90cde1dd_b.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
 }
 
-table, tr, td {
-    border: 2px solid #DA6419;
-    color:#28A3B6;
-    font-weight: 500;
-    font-family: Arial, Helvetica, sans-serif;
+.page-header {
+    height: 30vh;
+    background-image: url("https://live.staticflickr.com/7374/13039037424_ff90cde1dd_b.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    position: relative;
 }
 
-a {
-    color: #DA6419;
+nav {
+    font-family: 'Permanent Marker', Arial, Helvetica, sans-serif;
 }
 
-/* Class Selectors*/
 
-div#sticky {
-    position: sticky;
-    position: -webkit-sticky;
-    top: 0;
-}
 
-.body {
-    background-color:#2E4D4F;
-}
-
-.john-name {
-    padding: 15px;
-    margin: 20px;
-    color: #DA6419;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bolder;
-    text-align: center;
-}
-
-.header {
-    background-color: #151621;
-    margin: 0px;
-    padding-bottom: 20px;
-}
-
-.hero-section {
-    background-color: #151621;
-}
-
-.headings {
-    color:#28A3B6;
-    font-family: 'Permanent Marker', cursive;
-    font-size: 2em;
-    text-decoration: #28A3B6 underline solid;
-    margin-top: 50px;
-    padding-left: 10px;
-}
-
-a.nav-buttons {
-    color:#28A3B6;
-}
-
-.submit-button {
-    background-color:#DA6419;
-    border-radius: 2px;
-    width: 10em;
-    height: 2em;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-}
-
-.table {
-    padding: 5px;
-    width: 45%;
-    margin-top: 50px;
-    text-align: center;
-}
-
-.table-2 {
-    padding: 5px;
-    width: 45%;
-    margin-top: 50px; 
-    margin-left: 200px;
-    text-align: center;
-}
-
-.download {
-    font-size: 1.5em;
-    margin-top: 50px;
-    color:#DA6419;
-    font-family: 'Permanent Marker', cursive;
-}
-.w3container {
-    display: flex;
-    margin: 75px;
-}
-
-.w3container-2 {
-    display: flex;
-    background-color:#151621;
-    margin-top: 50px;
-    padding: 15px 25px 50px 25px;
-}
-
-.w3container-3 {
-    display: flex;
-    background-color:#151621;
-}
-
-.w3container-4 {
-    display: flex;
-}
-
-.certificate {
-    padding-left: 15%;
-}
-
-.buttons {
-    color:#151621;
-}
-
-.images {
-    width: 75%;
-    height: 350px;
-    margin: 20px;
-    overflow: auto;
-}
-
-.footer {
-    text-align: right;
-    margin: 5px;
-}
-
-/* ID Selectors*/
-
-#navbar {
-    text-align: center;
-    font-size: x-large;
-    word-spacing: 2rem;
-    font-family: 'Permanent Marker', cursive;
-    float: right;
-    margin: 20px;
-    padding: 15px;
-}
-
-#heading-image {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    padding-top: 50px;
-}
-
-#title {
-    text-align: center;
-    font-size: xxx-large;
-    color: #DA6419;
-    padding-bottom: 30px;
-    font-family: 'Permanent Marker', cursive;
-    text-decoration:underline solid #DA6419;
-    
-}
-
-#bio-intro {
-    width: 45%;
-    margin-top: 125px;
-}
-
-#bio {
-    width: 50%;
-   padding-left: 50px;
-   margin-top: 150px;
-}
-
-#portfolio-table {
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-  }
-
-#about-photo {
-    height: 400px;
-    margin-left: 250px;
-    display: inline;
-}
-
-#about-photo-2 {
-    margin-left: 250px;
-    margin-top: 100px;
-}
-
-#about-heading {
-    margin-top: 100px;
-    display: block;
-}
-
-#chembio-img {
-    width: 500px;
-    height: 350px;
-}
-
-#biorosa-img {
-    margin: 5px;
-}
-
-#container {
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-    width: 30%;
-    color:#DA6419;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-#navbar, .john-name {
-    display: inline-block; 
-}
-
-/* Pseudo Classes*/
-
-a:link {
+#about-head {
+    position: absolute;
+    top: 150px;
+    left: 150px;
     color: #28A3B6;
-}
-
-a:hover {
-    color:#F19906;
-}
-
-a:active {
-    color:#DA6419;
+    font-family: 'Permanent Marker', Arial, Helvetica, sans-serif;
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-/* Regular Selectors*/
-
-p {
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: left;
-    line-height: 1.6;
+#headerPara {
+    text-align: center;
+    color: #28A3B6;
+    font-family: 'Permanent Marker', Arial, Helvetica, sans-serif;
 }
 
-table, tr, td {
-    border: 2px solid #DA6419;
-    color:#28A3B6;
-    font-weight: 500;
-    font-family: Arial, Helvetica, sans-serif;
+#portfolio {
+    background-color: #151621;
+    position: relative;
 }
 
-a {
-    color: #DA6419;
+#headBtn {
+    background-color: #DA6419;
+    font-family: 'Permanent Marker', Arial, Helvetica, sans-serif;
+}
+
+#portBtn {
+    background-color: #DA6419;
+    position: absolute;
+    right: 15px;
+    font-family: 'Permanent Marker', Arial, Helvetica, sans-serif;
+}
+
+#contactBtn {
+    background-color: #DA6419;
+    font-family: 'Permanent Marker', Arial, Helvetica, sans-serif;
 }
 
 footer {
-    background-color: #151621;
-    color: #28A3B6;
-    width: 100%;
-}
-
-/* Class Selectors*/
-
-.body {
-    background-color:#2E4D4F;
-}
-
-.john-name {
-    padding: 15px;
-    margin: 20px;
-    color: #DA6419;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bolder;
-    text-align: center;
-}
-
-.header {
-    background-color: #151621;
-    margin: 0px;
-    padding-bottom: 20px;
-}
-
-.hero-section {
-    background-color: #151621;
-}
-
-.headings {
-    color:#28A3B6;
-    font-family: 'Permanent Marker', cursive;
-    font-size: 2em;
-    text-decoration: #28A3B6 underline solid;
-    margin-top: 50px;
-    padding-left: 10px;
-}
-
-a.nav-buttons {
-    color:#28A3B6;
-}
-
-.submit-button {
-    background-color:#DA6419;
-    border-top-left-radius: 50px;
-    border-top-right-radius: 10px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 50px;
-    width: 15em;
-    height: 3em;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-}
-
-.table {
-    padding: 5px;
-    width: 45%;
-    margin-top: 50px;
-    text-align: center;
-}
-
-.table-2 {
-    padding: 5px;
-    width: 45%;
-    margin-top: 50px; 
-    margin-left: 200px;
-    text-align: center;
-}
-
-.download {
-    font-size: 1.5em;
-    margin-top: 50px;
-    color:#DA6419;
-    font-family: 'Permanent Marker', cursive;
-}
-.w3container {
-    display: flex;
-    margin: 50px;
-}
-
-.w3container-2 {
-    display: flex;
-    background-color:#151621;
-    padding: 15px 25px 50px 25px;
-    clear: both;
-}
-
-.w3container-3 {
-    display: flex;
-    background-color:#151621;
-}
-
-.w3container-4 {
-    display: flex;
-}
-
-.certificate {
-    padding-left: 15%;
-}
-
-.buttons {
-    color:#151621;
-    text-decoration: none;
-    font-size: large;
-    background-color: #DA6419
-}
-
-.images {
-    width: 75%;
-    height: 350px;
-    margin: 20px;
-    overflow: auto;
+    position: relative;
 }
 
 .footer {
-    text-align: right;
-    margin: 5px;
-}
-
-/* ID Selectors*/
-
-#my-story {
-    display: flex;
-}
-
-#col1 {
-    margin-left: 100px;
-    margin-top: 10px;
-}
-
-#col2 {
-    margin-right: 45px;
-    margin-top: 25px;
-}
-
-#column1 {
-    margin-top: 85px;
-    margin-left: 50px;
-}
-
-#column2 {
-    margin-right: 50px;
-    margin-bottom: 50px;
-}
-
-#navbar {
-    text-align: center;
-    font-size: x-large;
-    word-spacing: 2rem;
-    font-family: 'Permanent Marker', cursive;
-    float: right;
-    margin: 20px;
-    padding: 15px;
-}
-
-#heading-image {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    padding-top: 50px;
-}
-
-#title {
-    text-align: center;
-    font-size: xxx-large;
-    color: #DA6419;
-    padding-bottom: 30px;
-    font-family: 'Permanent Marker', cursive;
-    text-decoration:underline solid #DA6419;
-    
+    position: absolute;
+    left: 15px;
+    bottom: 10px;
 }
 
 
 
-#bio-intro {
-    width: 70%;
-}
 
-
-#portfolio-table {
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-  }
-
-#about-photo {
-    height: 400px;
-    margin: 0px 75px 75px 0px;
-}
-
-#about-photo-2 {
-    margin-left: 250px;
-    margin-top: 100px;
-}
-
-#about-heading {
-    margin-top: 100px;
-    display: block;
-}
-
-#chembio-img {
-    width: 500px;
-    height: 350px;
-}
-
-#biorosa-img {
-    margin: 5px;
-}
-
-#contact-form {
-    color:#DA6419;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-#contact {
-    margin-left: 50px;
-    display: flex;
-}
-
-#contact-buttons {
-    color:#151621;
-    text-decoration: none;
-    background-color: #DA6419;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-#navbar, .john-name {
-    display: inline-block; 
-}
-
-/* Pseudo Classes*/
-
-a:link {
-    color: #28A3B6;
-}
-
-a:hover {
-    color:#F19906;
-}
-
-a:active {
-    color:#DA6419;
-}
